@@ -34,7 +34,7 @@ def button_click(number):
     val = val +str(number)
     data.set(val)
 
-# disploy for enter operatoe
+# display for enter operator
 def btn_cal_clicked():
     global val
     if (val == "+" or val == "-" or val == "*" or val == "/"):
